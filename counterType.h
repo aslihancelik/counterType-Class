@@ -1,5 +1,7 @@
-#pragma once
+// This class implements a simple counter.
+// The counter can be incremented, decremented, reset, or set to a specific value.
 
+#pragma once
 #include <iostream>
 using namespace std;
 
@@ -10,32 +12,33 @@ private:
 
 public:
 
-	//default constructor
-	//counterType();
-//parameterized constructor
+	// This class implements a simple counter.
+    // The counter can be incremented, decremented, reset, or set to a specific value.
 	counterType(int = 0);
-//increment operation
+
+	// Increments the counter by 1.
 	void incrementCounter();
 
 //decrement(decrement after reset)
 // 
+	// Decrements the counter by 1, but only if counter is greater than 0.
 	void decrementCounter();
 
 
 //reset operation
 // 
-
+	// Resets the counter to 0.
 	void resetCounter();
 
-//setting the counter object to a value 120??????????
+	// Sets the counter to the specified value. Only non-negative values are allowed.
 
 	void setCounter(int);
 
-//retrieve counters value
+	// Returns the current value of the counter.
 	int getCounter();
 
 
-	//print counter value
+	// Prints the current value of the counter.
 
 	void print();
 
