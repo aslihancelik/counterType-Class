@@ -33,8 +33,9 @@ int main()
     counter.print();
 
     // Decrement the counter
+    cout << "Attempting to decrement the counter after it is reset: " << endl;
     counter.decrementCounter();
-    cout << "Attempting to decrement the counter after it is reset: ";
+    cout << "The value of the counter after the attempt:";
     counter.print();
 
     // Setting counter to a negative value (should produce error)
