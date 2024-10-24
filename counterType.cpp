@@ -43,6 +43,6 @@ void counterType::setCounter(int counterUser) {
 }
 
 //retrieve counters value
-int getCounter() {
+int counterType::getCounter() {
 	return counter;
 }
