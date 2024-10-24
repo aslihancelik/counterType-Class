@@ -32,6 +32,11 @@ int main()
     cout << "Counter after resetting: ";
     counter.print();
 
+    // Decrement the counter
+    counter.decrementCounter();
+    cout << "Attempting to decrement the counter after it is reset: ";
+    counter.print();
+
     // Setting counter to a negative value (should produce error)
     counter.setCounter(-3);
 
