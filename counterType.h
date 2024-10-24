@@ -33,5 +33,11 @@ public:
 
 //retrieve counters value
 	int getCounter();
-};
 
+
+	//print counter value
+
+	void print();
+
+
+};

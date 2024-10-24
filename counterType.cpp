@@ -46,3 +46,8 @@ void counterType::setCounter(int counterUser) {
 int counterType::getCounter() {
 	return counter;
 }
+
+//print counter
+void counterType::print() {
+	cout << counter << endl;
+}
