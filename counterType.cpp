@@ -23,7 +23,6 @@ void counterType::incrementCounter() {
 }
 
 //decrement(decrement after reset)
-
 //Precondition: The counter must be initialized and non - negative.
 //Postcondition : If the counter is greater than 0, it is decremented by 1. If the counter is 0 or negative, an error message is displayed.
 
@@ -40,24 +39,16 @@ void counterType::decrementCounter() {
 
 
 //reset operation
-// 
-
-//Postcondition: The counter value is reset to 0
-
-//Precondition: None.
 //Postcondition : The counter is reset to 0.
+
 void counterType::resetCounter() {
 	counter = 0;
 }
 
 //setting the counter object to a value provided by user
-//Precondition: value provided by user
-//Postcondition: if non-negative user value then set the counter.
-//                 if not nonnegative print an error statement 
-
 //Precondition: The counterUser parameter should be an integer.
-//Postcondition : If counterUser is non - negative, the counter is set to the provided value.Otherwise, an error message is displayed, and the counter remains unchanged.
-
+//Postcondition : If counterUser is non - negative, the counter is set to the provided value.
+//                Otherwise, an error message is displayed, and the counter remains unchanged.
 
 void counterType::setCounter(int counterUser) {
 

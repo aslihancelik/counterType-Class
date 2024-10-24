@@ -7,14 +7,6 @@ using namespace std;
 
 int main()
 {
-    //counterType counter;
-
-    //counter.print();
-
-    //counter.setCounter(5);
-    //counter.print();
-
-
     // Testing default constructor (initializes counter to 0)
     counterType counter;
     cout << "Initial counter value (default constructor): ";
